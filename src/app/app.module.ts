@@ -14,6 +14,7 @@ import { ProductComponent } from './product/product.component';
 import { ErrorComponent } from './error/error.component';
 import { appRoutes } from './app.routes';
 import { ProductService } from './product.service';
+import { MealComponent } from './meal/meal.component';
 
 @NgModule({
   imports: [
@@ -29,6 +30,7 @@ import { ProductService } from './product.service';
     HomeComponent,
     ProductComponent,
     ErrorComponent,
+    MealComponent,
   ],
   providers: [ProductService],
   bootstrap: [AppComponent],

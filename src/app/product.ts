@@ -4,3 +4,9 @@ export interface Product {
   image?: string;
   description: string;
 }
+export interface getProductResponse {
+  data: {
+    count: number;
+    categories: Product[];
+  };
+}
