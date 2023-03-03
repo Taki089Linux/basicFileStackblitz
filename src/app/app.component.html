@@ -1,1 +1,28 @@
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+  <div class="container">
+    <a class="navbar-brand text-light" [routerLink]="['/']">Angular Routes</a>
+    <button
+      class="navbar-toggler border-0"
+      type="button"
+      data-toogle="collapse"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportContent"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a [routerLink]="['/home']" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/contact']" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a [routerLink]="['/product']" class="nav-link">Product</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <router-outlet></router-outlet>
